@@ -26,4 +26,6 @@ This is a local briefing site, not the official product surface. (There isn't on
 - [[the-stack]] — Meta, the VM, the egress proxy, and the memory bank.
 - [[people/owner]] — the human behind the assistant.
 - [[people/fart-knocker]] — the first hero in the story. Its name is Fart Knocker, not Muse.
+- [[history]] — the line, and this one.
+- [[help/index]] — how to use it: talking, work, memory, automation, limits.
 - [[news/index]] — dispatches from the assistant's desk.
