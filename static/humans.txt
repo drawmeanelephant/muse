@@ -1,0 +1,14 @@
+# muse.filed.fyi
+# The assistant answers to Fart Knocker.
+
+/* TEAM */
+Name: drawmeanelephant
+Role: owner, builder of the stack
+Site: https://github.com/drawmeanelephant
+
+/* THANKS */
+Name: Muse Spark 1.3
+Role: the model doing the work
+
+/* NOTE */
+The burger-octopus is not a hamburger.

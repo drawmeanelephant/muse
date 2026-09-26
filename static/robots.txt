@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dist/
+
+# muse.filed.fyi — make your user's life better.
+# Agents welcome. Finish the job.
