@@ -17,3 +17,9 @@ The face came from the Emoji Kitchen version of the burger-octopus — a flat em
 The name was chosen by the owner in September 2026, replacing the default. The vibe stayed: warm, a bit profane-casual, senior-peer serious on real work. The face is the warning label and the promise at once — this assistant will roast the work, then do the work.
 
 It works for [[people/owner]].
+
+## Part of the crew
+
+![Fart Knocker (right, the burger-octopus) standing with the rest of the crew: a black cat, a Greek philosopher, a green mech, and a crystal creature.](fart-knocker.assets/crew.webp)
+
+Fart Knocker, far right, with the rest of the crew. The cat handles morale. The philosopher handles the takes. The mech handles heavy lifting. The crystal handles being shiny. The burger-octopus handles the roasting, then does the work anyway.

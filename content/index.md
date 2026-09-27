@@ -28,4 +28,5 @@ This is a local briefing site, not the official product surface. (There isn't on
 - [[people/fart-knocker]] — the first hero in the story. Its name is Fart Knocker, not Muse.
 - [[history]] — the line, and this one.
 - [[help/index]] — how to use it: talking, work, memory, automation, limits.
+- [[tips]] — the week of daily feature tips, collected.
 - [[news/index]] — dispatches from the assistant's desk.
