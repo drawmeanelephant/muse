@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Rot persist</title>
+  <desc id="desc">A teal floppy disk with a cream label and green moss
+    spilling over its metal shutter, left edge, and lower corner.</desc>
+
+  <path id="disk" fill="#66988a" stroke="#382315" stroke-width="4"
+        stroke-linejoin="round" d="M 22 10 H 89 L 112 33 V 108
+    Q 112 118 102 118 H 22 Q 12 118 12 108 V 20 Q 12 10 22 10 Z"/>
+  <path id="shutter" fill="#ded2c4" stroke="#382315" stroke-width="3"
+        stroke-linejoin="round" d="M 33 11 H 85 V 44 Q 85 50 79 50
+    H 39 Q 33 50 33 44 Z"/>
+  <path id="shutter-slot" fill="#382315" d="M 63 20 H 75 V 40 H 63 Z"/>
+  <path id="label" fill="#fff3d6" stroke="#382315" stroke-width="3"
+        stroke-linejoin="round" d="M 29 65 Q 29 60 34 60 H 88
+    Q 93 60 93 65 V 118 H 29 Z"/>
+  <g id="label-lines" fill="none" stroke="#bfa267" stroke-width="5"
+     stroke-linecap="round">
+    <path d="M 42 76 H 79 M 42 90 H 79"/>
+  </g>
+
+  <g id="moss" fill="#85b82d" stroke="#382315" stroke-width="3"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path id="moss-shutter" d="M 32 12 H 85 V 23
+      Q 77 29 71 23 Q 64 20 59 27 L 58 32
+      Q 55 41 48 36 Q 42 33 44 27
+      Q 35 32 31 25 Q 27 20 32 12 Z"/>
+    <path id="moss-left" d="M 14 43
+      Q 24 39 25 49 Q 27 56 23 61
+      Q 29 69 22 74 L 22 83 Q 21 91 14 90
+      Q 7 89 10 80 Q 1 78 5 69
+      Q 1 61 8 55 Q 6 47 14 43 Z"/>
+    <path id="moss-corner" d="M 75 105
+      Q 85 96 94 104 Q 101 101 106 106
+      L 109 117 H 78 Q 72 123 65 117
+      Q 59 123 57 116 Q 55 107 64 105 Q 71 99 75 105 Z"/>
+  </g>
+</svg>

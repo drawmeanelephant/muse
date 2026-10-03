@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Session sealed</title>
+  <desc id="desc">A smiling gray tombstone with coral cheeks, standing in
+    green grass and holding a lit candle in a gold candlestick.</desc>
+
+  <!-- The arm sits behind the stone and the candlestick. -->
+  <path id="arm" fill="#c8bbb0" stroke="#382315" stroke-width="3"
+        stroke-linejoin="round" d="M 75 79 Q 91 85 105 77 L 109 94
+    Q 94 106 75 98 Z"/>
+  <g id="stone" stroke="#382315" stroke-width="3" stroke-linejoin="round">
+    <path id="stone-side" fill="#a99b8e" d="M 9 111 V 58
+      C 9 34 26 17 44 17 L 35 25 C 20 36 19 49 19 61 V 111 Z"/>
+    <path id="stone-front" fill="#ded2c4" d="M 19 112 V 57
+      C 19 34 32 19 49 19 C 67 19 80 34 80 57 V 112 Z"/>
+  </g>
+  <g id="face">
+    <g fill="#382315">
+      <ellipse cx="37" cy="65" rx="3.5" ry="5"/>
+      <ellipse cx="63" cy="65" rx="3.5" ry="5"/>
+    </g>
+    <g fill="#f5754d">
+      <circle cx="29" cy="76" r="5"/>
+      <circle cx="71" cy="76" r="5"/>
+    </g>
+    <path fill="none" stroke="#382315" stroke-width="3" stroke-linecap="round"
+          d="M 42 74 Q 50 85 58 74"/>
+  </g>
+
+  <g id="candlestick" fill="#ffbe35" stroke="#382315" stroke-width="3"
+     stroke-linejoin="round">
+    <path id="stand-base" d="M 97 101 H 111 L 118 107
+      Q 122 114 104 114 Q 86 114 90 107 Z"/>
+    <path id="stand-stem" d="M 98 89 H 111 V 102
+      Q 104 109 98 102 Z"/>
+    <path id="stand-cup" d="M 88 86 Q 104 81 120 86
+      Q 121 98 104 98 Q 87 98 88 86 Z"/>
+  </g>
+  <path id="candle" fill="#fff3d6" stroke="#382315" stroke-width="3"
+        stroke-linejoin="round" d="M 95 60 Q 95 56 99 56 H 110
+    Q 114 56 114 60 V 88 H 95 Z"/>
+  <path id="wax-drip" fill="#fff3d6" stroke="#382315" stroke-width="2.5"
+        stroke-linejoin="round" d="M 95 60 H 114 V 72
+    Q 108 78 106 71 L 105 67 Q 103 63 101 69 Q 97 75 95 70 Z"/>
+  <path id="flame" fill="#ffbe35" stroke="#382315" stroke-width="2.5"
+        stroke-linejoin="round" d="M 104 8
+    C 103 20 93 25 93 38 C 93 54 116 54 116 38
+    C 116 26 109 17 104 8 Z"/>
+  <path id="wick" fill="none" stroke="#382315" stroke-width="3"
+        stroke-linecap="round" d="M 104 49 V 57"/>
+
+  <path id="grass" fill="#85b82d" stroke="#382315" stroke-width="2.5"
+        stroke-linejoin="round" d="M 5 114
+    Q 6 106 16 110 Q 10 99 16 97 Q 21 97 24 107
+    Q 29 97 32 103 L 33 111 H 67
+    Q 66 101 72 105 L 76 112 Q 80 100 84 106 L 86 113
+    Q 91 119 76 122 H 18 Q 2 122 5 114 Z"/>
+</svg>
