@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Fart Knocker</title>
+  <desc id="desc">A smug sesame-bun burger-octopus with six coral legs and
+    six burger layers: top bun, cheese, tomato, lettuce, patty, bottom bun.</desc>
+
+  <!-- Six closed leg shapes, drawn behind the burger. -->
+  <g id="legs" fill="#f5754d" stroke="#382315" stroke-width="4"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path id="leg-upper-left" d="M 40 81
+      C 29 86 21 83 21 76 C 21 68 12 66 8 72
+      C 4 78 9 88 18 91 C 28 95 39 92 48 88 Z"/>
+    <path id="leg-upper-right" transform="translate(128 0) scale(-1 1)" d="M 40 81
+      C 29 86 21 83 21 76 C 21 68 12 66 8 72
+      C 4 78 9 88 18 91 C 28 95 39 92 48 88 Z"/>
+    <path id="leg-middle-left" d="M 46 87
+      C 34 98 19 105 12 97 C 7 91 3 95 5 102
+      C 8 114 31 113 43 103 L 55 91 Z"/>
+    <path id="leg-middle-right" transform="translate(128 0) scale(-1 1)" d="M 46 87
+      C 34 98 19 105 12 97 C 7 91 3 95 5 102
+      C 8 114 31 113 43 103 L 55 91 Z"/>
+    <path id="leg-lower-left" d="M 54 89
+      C 54 107 48 118 40 116 C 34 115 35 109 31 111
+      C 26 115 31 124 41 124 C 58 124 63 109 62 91 Z"/>
+    <path id="leg-lower-right" transform="translate(128 0) scale(-1 1)" d="M 54 89
+      C 54 107 48 118 40 116 C 34 115 35 109 31 111
+      C 26 115 31 124 41 124 C 58 124 63 109 62 91 Z"/>
+  </g>
+
+  <!-- Back-to-front paint order; exactly one shape per burger layer. -->
+  <g id="burger" stroke="#382315" stroke-width="3" stroke-linejoin="round">
+    <path id="layer-bottom-bun" fill="#d18419" d="M 27 81 H 101 V 84
+      C 101 98 27 98 27 84 Z"/>
+    <path id="layer-patty" fill="#774323" d="M 27 76 H 101
+      C 105 76 105 84 101 84 H 27 C 23 84 23 76 27 76 Z"/>
+    <path id="layer-lettuce" fill="#85b82d" d="M 25 69 H 103
+      L 106 74 Q 109 80 101 78 L 91 76
+      Q 84 84 76 78 Q 64 86 53 78
+      Q 43 85 36 77 L 26 79 Q 19 80 22 74 Z"/>
+    <path id="layer-tomato" fill="#d94f38" d="M 27 64 H 101
+      C 105 64 105 72 101 72 H 27 C 23 72 23 64 27 64 Z"/>
+    <path id="layer-cheese" fill="#ffbe35" d="M 26 58 H 102
+      Q 108 61 104 65 L 89 67 L 81 72 L 71 67
+      H 51 L 42 72 L 33 67 L 24 66 Q 19 63 26 58 Z"/>
+    <path id="layer-top-bun" fill="#e59a24" d="M 24 55
+      C 24 28 42 10 64 10 C 86 10 104 28 104 55
+      C 104 62 87 64 64 64 C 41 64 24 62 24 55 Z"/>
+  </g>
+
+  <g id="sesame" fill="#fff3d6">
+    <ellipse cx="47" cy="24" rx="3.5" ry="2" transform="rotate(-25 47 24)"/>
+    <ellipse cx="64" cy="19" rx="3.5" ry="2" transform="rotate(15 64 19)"/>
+    <ellipse cx="81" cy="24" rx="3.5" ry="2" transform="rotate(25 81 24)"/>
+  </g>
+
+  <!-- Half-lidded eyes and an off-center smirk carry the expression. -->
+  <g id="face">
+    <path fill="#fff3d6" d="M 39 38 H 54 V 40 C 54 47 40 47 39 40 Z
+      M 74 36 H 89 V 38 C 89 45 75 45 74 38 Z"/>
+    <path fill="#382315" d="M 47 38 H 54 V 40 C 54 46 47 46 47 40 Z
+      M 82 36 H 89 V 38 C 89 44 82 44 82 38 Z"/>
+    <g fill="none" stroke="#382315" stroke-width="3" stroke-linecap="round">
+      <path d="M 39 38 H 54 M 74 36 H 89"/>
+      <path d="M 40 31 Q 46 28 52 32 M 77 29 Q 82 25 88 27"/>
+      <path d="M 53 52 Q 66 60 78 50 M 51 53 L 54 50"/>
+    </g>
+  </g>
+</svg>
