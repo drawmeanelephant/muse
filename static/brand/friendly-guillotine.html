@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Friendly guillotine · SVG review</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0 auto;
+      max-width: 72rem;
+      padding: 2rem 1rem 4rem;
+      background: #0b0f14;
+      color: #c9d4de;
+      font: 1rem/1.6 system-ui, sans-serif;
+    }
+    h1, h2 { color: #e6edf3; line-height: 1.2; }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    h2 { font-size: 1.3rem; }
+    a { color: #9dce78; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid #ffbe35; outline-offset: 4px; }
+    .intro { max-width: 48rem; margin-bottom: 3rem; }
+    .eyebrow { color: #9dce78; font-size: .8rem; letter-spacing: .12em; }
+    section { margin: 3rem 0; }
+    figure { margin: 0; max-width: 100%; }
+    figcaption { margin-top: .5rem; font-size: .85rem; }
+    .sizes { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; }
+    .swatch {
+      display: grid;
+      place-items: center;
+      min-width: 7rem;
+      min-height: 7rem;
+      padding: .5rem;
+      border: 1px solid #758077;
+      border-radius: .5rem;
+    }
+    .paper { background: #fff3d6; }
+    .dark { background: #18212b; }
+    img { display: block; max-width: 100%; height: auto; }
+    .poster { max-width: 100%; padding: 1rem; }
+    .large { max-width: 100%; height: auto; }
+    .checklist { max-width: 48rem; padding-left: 1.25rem; }
+    .checklist li { margin: .4rem 0; }
+    @media print {
+      body { background: white; color: #382315; padding: 1rem; }
+      h1, h2, a, .eyebrow { color: #382315; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="intro">
+    <p class="eyebrow">muse.filed.fyi / brand workshop</p>
+    <h1>Friendly guillotine</h1>
+    <p>A flat, hand-authored version of the cheerful wooden character in the
+      supplied reference. Transparent background, solid colors, and the
+      same SVG at every size. No autotrace, raster embeds, or external assets.</p>
+    <p><strong>Owner-approved on 2026-10-03.</strong>
+      The site avatar and favicon are unchanged.</p>
+    <p><a href="friendly-guillotine.svg">Open SVG master</a> ·
+      <a href="filed-robot.html">Filing-cabinet robot review</a></p>
+  </header>
+  <main>
+    <section aria-labelledby="paper-heading">
+      <h2 id="paper-heading">Actual sizes / light background</h2>
+      <div class="sizes">
+        <figure>
+          <div class="swatch paper"><img src="friendly-guillotine.svg" width="16" height="16" alt="Friendly guillotine at 16 pixels"></div>
+          <figcaption>16 × 16 / favicon</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch paper"><img src="friendly-guillotine.svg" width="32" height="32" alt="Friendly guillotine at 32 pixels"></div>
+          <figcaption>32 × 32</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch paper"><img src="friendly-guillotine.svg" width="64" height="64" alt="Friendly guillotine at 64 pixels"></div>
+          <figcaption>64 × 64</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch paper"><img src="friendly-guillotine.svg" width="256" height="256" alt="Friendly guillotine at 256 pixels"></div>
+          <figcaption>256 × 256</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section aria-labelledby="dark-heading">
+      <h2 id="dark-heading">Actual sizes / dark background</h2>
+      <div class="sizes">
+        <figure>
+          <div class="swatch dark"><img src="friendly-guillotine.svg" width="16" height="16" alt="Friendly guillotine at 16 pixels on dark"></div>
+          <figcaption>16 × 16 / favicon</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch dark"><img src="friendly-guillotine.svg" width="32" height="32" alt="Friendly guillotine at 32 pixels on dark"></div>
+          <figcaption>32 × 32</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch dark"><img src="friendly-guillotine.svg" width="64" height="64" alt="Friendly guillotine at 64 pixels on dark"></div>
+          <figcaption>64 × 64</figcaption>
+        </figure>
+        <figure>
+          <div class="swatch dark"><img src="friendly-guillotine.svg" width="256" height="256" alt="Friendly guillotine at 256 pixels on dark"></div>
+          <figcaption>256 × 256</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section aria-labelledby="poster-heading">
+      <h2 id="poster-heading">Large render / 768 × 768</h2>
+      <figure>
+        <div class="swatch paper poster"><img class="large" src="friendly-guillotine.svg" width="768" height="768" alt="Large friendly guillotine vector mark"></div>
+        <figcaption>Vector edges stay crisp at any scale. Shrinks to fit narrow screens.</figcaption>
+      </figure>
+    </section>
+    <section aria-labelledby="reference-heading">
+      <h2 id="reference-heading">Reference check</h2>
+      <ul class="checklist">
+        <li>Arched wooden beam, two tall posts, gold finial, and six bolts.</li>
+        <li>Broad silver blade with a sloping edge and a gold hanger.</li>
+        <li>Side rope with a wooden pull and gold tassel.</li>
+        <li>Large oval eyes, lifted brows, an open smile, and coral tongue.</li>
+        <li>The face and bow tie share the frame's leaning centerline,
+          with clear space on both sides of the face.</li>
+        <li>One welcoming open glove, one bent arm, and brown shoes.</li>
+        <li>Teal bow tie, coral and yellow dots, and a green center knot.</li>
+        <li>Painted texture and tiny highlights are omitted to keep the mark clean.</li>
+        <li>At 16 pixels, judge the frame, blade, face, and bright bow tie.
+          Individual bolts, fingers, and dots are larger-size details.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
