@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">The archive stares back</title>
+  <desc id="desc">An open golden archive box with a raised lid,
+    two large eyes peeking over the front, and a dark handle slot.</desc>
+
+  <g id="lid" stroke="#382315" stroke-width="3" stroke-linejoin="round">
+    <path id="box-interior" fill="#bfa267" d="M 27 38 H 104 L 118 61
+      L 94 76 H 13 Z"/>
+    <path id="lid-side" fill="#d6ad63" d="M 107 13 L 120 57
+      L 96 68 L 93 38 Z"/>
+    <path id="lid-top" fill="#ffbe35" d="M 14 38 L 30 13
+      H 107 L 93 38 Z"/>
+  </g>
+  <g id="eyes" fill="#fff3d6" stroke="#382315" stroke-width="3">
+    <circle id="eye-left" cx="44" cy="69" r="16"/>
+    <circle id="eye-right" cx="79" cy="69" r="16"/>
+  </g>
+  <g id="pupils" fill="#382315">
+    <ellipse cx="44" cy="71" rx="6" ry="8"/>
+    <ellipse cx="79" cy="71" rx="6" ry="8"/>
+  </g>
+  <g id="box" stroke="#382315" stroke-width="3" stroke-linejoin="round">
+    <path id="box-side" fill="#d6ad63" d="M 94 76 L 118 61
+      V 104 L 94 119 Z"/>
+    <path id="box-front" fill="#ffbe35" d="M 13 76 H 94 V 119 H 13 Z"/>
+  </g>
+  <rect id="handle" x="43" y="88" width="29" height="9" rx="4.5" fill="#382315"/>
+</svg>

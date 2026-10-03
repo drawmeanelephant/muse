@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Archive scroll</title>
+  <desc id="desc">A golden parchment scroll with a rolled upper-left edge,
+    a curled lower-right edge, and five broad lines of writing.</desc>
+
+  <g id="parchment" stroke="#382315" stroke-width="3"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path id="top-roll" fill="#d6ad63" d="M 29 12
+      C 9 12 8 39 22 39 H 35 V 18 Z"/>
+    <path id="sheet" fill="#fff3d6" d="M 29 12 H 91
+      Q 106 12 106 27 V 40 Q 103 45 100 47
+      Q 96 51 101 56 V 91 Q 101 99 95 104 H 40
+      Q 24 104 24 87 V 65 Q 31 60 26 55
+      L 28 37 Q 38 17 29 12 Z"/>
+    <path id="bottom-roll" fill="#ffbe35" d="M 40 104 H 108
+      Q 121 104 121 114 Q 121 124 108 124 H 36
+      Q 24 124 24 112 V 96 Q 25 107 40 104 Z"/>
+    <path id="bottom-fold" fill="#fff3d6" d="M 40 104
+      Q 48 114 40 124 H 36 Q 26 123 24 114
+      Q 30 116 40 104 Z"/>
+  </g>
+  <g id="writing" fill="none" stroke="#bfa267" stroke-width="5"
+     stroke-linecap="round">
+    <path d="M 50 34 H 83 M 42 48 H 83 M 45 62 H 80
+             M 42 76 H 69 M 45 90 H 80"/>
+  </g>
+  <path id="roll-crease" fill="none" stroke="#382315" stroke-width="3"
+        stroke-linecap="round" d="M 20 24 Q 17 35 22 39"/>
+</svg>
